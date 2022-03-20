@@ -7,6 +7,7 @@ let featuredPosts = [
     "I've just relaunched my portfolio"
 ]
 
+console.log(featuredPosts.length)
 // console.log( featuredPosts[2] )
 
 
@@ -14,7 +15,7 @@ let experience = ["CEO at Scrimba", "Frontend developer at Xeneta", "People coun
 
 // Make the following appear in the console:
 // Frontend developer at Xeneta
-// People counter for Norstat
+// People counter for Norstatn
 // CEO at Scrimba
 
 console.log(experience[1])
