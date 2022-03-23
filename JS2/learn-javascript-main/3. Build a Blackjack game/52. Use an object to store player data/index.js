@@ -1,4 +1,9 @@
 // 2. Create the player object. Give it two keys, name and chips, and set their values
+let player = {
+    name: "Per",
+    chips: 145
+}
+
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -10,6 +15,9 @@ let cardsEl = document.getElementById("cards-el")
 // 3. Grab ahold of the player-el paragraph and store it in a variable called playerEl
 
 // 4. Render the player's name and chips in playerEl
+
+let playerEl = document.getElementById("player-el")
+playerEl.textContent = player.name + ": $ " + player.chips
 
 function getRandomCard() {
     let randomNumber = Math.floor( Math.random()*13 ) + 1
