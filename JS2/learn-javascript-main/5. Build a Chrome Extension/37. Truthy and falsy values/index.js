@@ -1,4 +1,4 @@
-// const credits = 0
+//  const credits = 0
 
 // if (credits) {
 //     console.log("Let's play 🎰")
